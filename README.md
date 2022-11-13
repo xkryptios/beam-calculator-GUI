@@ -1,19 +1,32 @@
-# load-a-beam-GUI
+# Shear Force and Bending Moment Simulator GUI
 
-Create a GUI to show sheer force and bending moment using Turtle library
+Shear Force and Bending moment are key concepts in Solid Mechanics.
 
-functional requirement
-ability for user input:
-a. 3 type of beam (simply supported, overhaing, cantilever)
-b. positions of the supports
-c. leading configuration(how load is distributed)
+Shear force is the force acting on a substance in a direction perpendicular to the extension of the substance, acting in a direction to a planar cross section of a body.
 
-able to display:
-a. 2D diagram of the beam structure with
-b. loading force
-c. reaction force
-d. sheer force graph
-e. bending moment graph
+Bending Moment is the reaction induced in a structural element when an external force or moment is applied to the element
 
-able to save user input to a file
-able to load a file to display graph agn
+## Objective
+
+Display the shear force and bending moment on every point of a beam
+
+functional requirements
+
+1. Allow user to load or create a new Beam
+2. 3 types of beam (simply supported, overhaing, cantilever)
+3. 3 Types of forces (Point Weight, Distributed Weight, Bending Moment)
+4. Allow user to place weight freely on the beam
+5. Allow user to generate graphs based on beam configuration given
+6. Allow user to save the configuration
+
+## Executing the program
+
+- Execute the program with following command
+
+  ```shell
+  python main.py
+  ```
+
+- Snippets of the program
+  <img src="=asset/demo1.png"/>
+  <img src="=asset/demo2.png"/>
