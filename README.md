@@ -28,5 +28,6 @@ functional requirements
   ```
 
 - Snippets of the program
-  <img src="=asset/demo1.png"/>
-  <img src="=asset/demo2.png"/>
+  <img src="setup/pictures/demo.png"/>
+  <img src="asset/demo1.png"/>
+  <img src="asset/demo2.png"/>
